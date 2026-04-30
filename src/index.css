@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 100 20% 4%;
+    --foreground: 100 15% 95%;
+    --card: 130 18% 10%;
+    --card-foreground: 100 15% 95%;
+    --popover: 130 18% 10%;
+    --popover-foreground: 100 15% 95%;
+    --primary: 142 71% 58%;
+    --primary-foreground: 100 20% 4%;
+    --secondary: 130 18% 10%;
+    --secondary-foreground: 142 71% 58%;
+    --muted: 130 15% 15%;
+    --muted-foreground: 120 12% 50%;
+    --accent: 217 91% 60%;
+    --accent-foreground: 100 20% 4%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 142 30% 15%;
+    --input: 142 30% 15%;
+    --ring: 142 71% 58%;
+    --radius: 0.625rem;
+    --sidebar-background: 100 20% 4%;
+    --sidebar-foreground: 100 15% 95%;
+    --sidebar-primary: 142 71% 58%;
+    --sidebar-primary-foreground: 100 20% 4%;
+    --sidebar-accent: 130 18% 10%;
+    --sidebar-accent-foreground: 100 15% 95%;
+    --sidebar-border: 142 30% 15%;
+    --sidebar-ring: 142 71% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cultiva-bg text-cultiva-text antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-mono-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+  .gradient-text {
+    background: linear-gradient(90deg, #4ADE80, #60A5FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .glow-green {
+    box-shadow: 0 0 40px rgba(74, 222, 128, 0.15);
+  }
+  .glow-green-strong {
+    box-shadow: 0 0 60px rgba(74, 222, 128, 0.3);
+  }
+}
