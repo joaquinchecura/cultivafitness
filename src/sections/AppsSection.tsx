@@ -125,7 +125,7 @@ export function AppsSection() {
             Una app para cada dimensión de tu bienestar
           </h2>
           <p className="text-cultiva-secondary text-base sm:text-lg">
-            Desde ejercicios hasta neurociencias, cada aplicación está diseñada con rigor científico y una experiencia intuitiva.
+            Desde fisiología hasta neurociencias, cada aplicación está diseñada con rigor científico y una experiencia intuitiva.
           </p>
         </div>
 
