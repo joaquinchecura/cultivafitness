@@ -12,7 +12,7 @@ const features = [
     iconColor: '#4ADE80',
     title: 'Tracking Inteligente',
     desc: 'Cada métrica importa. Desde repeticiones hasta variabilidad de frecuencia cardíaca, nuestro sistema de tracking aprende de ti y se adapta.',
-    image: '/images/app-fitness.jpg',
+    image: '/images/Screenshot_20260420-113822.png',
   },
   {
     icon: FlaskConical,
