@@ -71,7 +71,7 @@ export function Footer() {
             <div>
               <h4 className="text-cultiva-text text-sm font-semibold mb-4">Contacto</h4>
               <p className="text-cultiva-muted text-sm">
-                hola@cultivafitness.com
+                cultivafitness@gmail.com
               </p>
             </div>
           </div>
