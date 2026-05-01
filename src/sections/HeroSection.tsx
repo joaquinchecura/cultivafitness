@@ -59,34 +59,23 @@ export function HeroSection() {
           className="opacity-0 translate-y-10 text-5xl sm:text-6xl lg:text-7xl font-extrabold text-cultiva-text leading-tight tracking-tight mb-6"
         >
           Cultiva tu{' '}
-          <span className="gradient-text">cuerpo</span>{' '}
+          <span className="gradient-text">CUERPO</span>{' '}
           y{' '}
-          <span className="gradient-text">mente</span>
+          <span className="gradient-text">MENTE</span>
         </h1>
 
         <p
           ref={subtitleRef}
           className="opacity-0 text-cultiva-secondary text-lg sm:text-xl max-w-[640px] mx-auto mb-10 leading-relaxed"
         >
-          Un ecosistema de apps diseñadas para transformar tu fitness, nutrición, fisiología y neurociencia. Todo con tracking inteligente.
+          Un ecosistema de apps diseñadas para transformar tu estado físico, tu ingesta nutricional y tu sistema de emociones.
         </p>
 
         <div
           ref={ctaRef}
           className="opacity-0 translate-y-5 flex flex-col sm:flex-row items-center justify-center gap-4 mb-8"
         >
-          <a
-            href="https://cultivafitness.base44.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-cultiva-green text-cultiva-bg px-10 py-4 rounded-full text-base font-semibold hover:bg-cultiva-green-dark transition-all duration-300 hover:scale-[1.03] hover:shadow-[0_0_40px_rgba(74,222,128,0.3)]"
-          >
-            Usar WebApp Ahora
-            <ExternalLink className="w-4 h-4" />
-          </a>
-          <button
-            onClick={() => document.querySelector('#apps')?.scrollIntoView({ behavior: 'smooth' })}
-            className="inline-flex items-center gap-2 border border-cultiva-green text-cultiva-green px-10 py-4 rounded-full text-base font-semibold hover:bg-cultiva-green/10 transition-all duration-300"
+          
           >
             Ver Apps
             <ArrowRight className="w-4 h-4" />
