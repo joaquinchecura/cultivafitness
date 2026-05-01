@@ -9,7 +9,6 @@ const socials = [
   {
     name: 'YouTube',
     handle: '@cultivafitness',
-    followers: 
     icon: Youtube,
     iconColor: '#FF0000',
     cta: 'Suscribirse',
@@ -17,7 +16,6 @@ const socials = [
   {
     name: 'Instagram',
     handle: '@cultivafitness',
-    followers: 
     icon: Instagram,
     iconColor: '#E4405F',
     cta: 'Seguir',
@@ -25,7 +23,6 @@ const socials = [
   {
     name: 'TikTok',
     handle: '@cultivafitness',
-    followers: 
     icon: Music,
     iconColor: '#F4F7F3',
     cta: 'Seguir',
