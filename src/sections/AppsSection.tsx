@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const apps = [
   {
-    name: 'Cultiva Fitness',
+    name: 'BODYMIND',
     tag: 'FITNESS',
     tagColor: '#4ADE80',
     gradient: 'from-cultiva-green to-cultiva-green-dark',
