@@ -31,62 +31,51 @@ const apps = [
     ),
   },
   {
-    name: 'Cultiva Mente',
+    name: 'NEURA',
     tag: 'NEUROCIENCIA',
     tagColor: '#2DD4BF',
     gradient: 'from-cultiva-teal to-teal-600',
-    desc: 'Entrena tu cerebro con protocolos basados en neuroplasticidad. Meditación, focus y recovery mental.',
+    desc: 'Te ayuda a entender tu estado interno, regular tu sistema nervioso y conectar emociones con hábitos saludables.',
     features: ['Protocolos de focus', 'Meditación guiada', 'Análisis de hábitos'],
-    link: '#',
+    link: 'https://neura.cultivafitness.app',
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-7 h-7">
-        <path d="M12 3a9 9 0 109 9c0-.46-.04-.92-.1-1.36a5.39 5.39 0 01-4.5-4.5A9.01 9.01 0 0012 3z" />
-      </svg>
+      <img src="/images/logoneura.png" alt="Descripción" className="w-15 h-15 object-contain" />
     ),
   },
   {
-    name: 'Cultiva Cuerpo',
-    tag: 'FISIOLOGÍA',
+    name: 'RUNNING',
+    tag: 'ENTRENAMIENTO',
     tagColor: '#a78bfa',
     gradient: 'from-cultiva-purple to-violet-600',
-    desc: 'Monitorea tus biomarcadores, ciclo de sueño y recuperación. Datos que revelan tu fisiología única.',
+    desc: 'Tu App de planificación Running adaptativa con planes personalizados según tu nivel o tu fecha de carrera.',
     features: ['Tracking de sueño', 'Biomarcadores', 'Análisis HRV'],
-    link: '#',
+    link: 'https://running.cultivafitness.app',
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-7 h-7">
-        <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
-      </svg>
+       <img src="/images/logorunning.png" alt="Descripción" className="w-15 h-15 object-contain" />
     ),
   },
   {
-    name: 'Cultiva Wellness',
+    name: 'RECKON',
     tag: 'WELLNESS',
     tagColor: '#fbbf24',
     gradient: 'from-cultiva-yellow to-amber-500',
-    desc: 'Bienestar integral que une cuerpo y mente. Hábitos, journaling y balance para una vida plena.',
+    desc: 'Tu plataforma inteligente que sintetiza evaluaciones de salud y datos biométricos para generar programas personalizados de acondicionamiento físico y rehabilitación.',
     features: ['Tracker de hábitos', 'Journaling diario', 'Balance semanal'],
-    link: '#',
+    link: 'https://reckon.cultivafitness.app',
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-7 h-7">
-        <circle cx="12" cy="12" r="10" />
-        <path d="M12 6v6l4 2" />
-      </svg>
+      <img src="/images/logoreckon.png" alt="Descripción" className="w-15 h-15 object-contain" />
     ),
   },
   {
-    name: 'Cultiva Social',
-    tag: 'COMUNIDAD',
+    name: 'TIMER',
+    tag: 'UTILIDAD',
     tagColor: '#f472b6',
     gradient: 'from-cultiva-pink to-pink-500',
-    desc: 'Conecta con tu tribu. Comparte progresos, participa en retos y aprende de expertos.',
+    desc: 'Un temporizador inteligente para tu entrenamiento físico, que ofrece ajustes preestablecidos personalizables y seguimiento de progreso.',
     features: ['Retos grupales', 'Leaderboards', 'Contenido exclusivo'],
-    link: '#',
+    link: 'https://TIMER.cultivafitness.app',
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-7 h-7">
-        <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
-        <circle cx="9" cy="7" r="4" />
-        <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
-      </svg>
+      <img src="/images/logotimer.png" alt="Descripción" className="w-15 h-15 object-contain" />
     ),
   },
 ];
