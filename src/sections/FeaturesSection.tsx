@@ -33,7 +33,6 @@ const features = [
     iconColor: '#a78bfa',
     title: 'Comunidad Viva',
     desc: 'No estás solo. Forma parte de una comunidad que comparte tus objetivos y te impulsa a superarlos.',
-    image: '/images/app-fitness.jpg',
   },
 ];
 
@@ -125,18 +124,6 @@ export function FeaturesSection() {
                   <p className="text-cultiva-secondary text-base lg:text-lg leading-relaxed">
                     {feature.desc}
                   </p>
-                </div>
-
-      {/* Image */}
-                <div className="feature-image flex-1 w-full max-w-[480px]">
-                  <div className="relative aspect-[4/3] bg-cultiva-surface rounded-2xl border border-cultiva-green/10 overflow-hidden">
-                    <img
-                      src={feature.image}
-                      alt={feature.title}
-                      className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-cultiva-bg/30 to-transparent" />
-                  </div>
                 </div>
               </div>
             );
