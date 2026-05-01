@@ -72,17 +72,6 @@ export function HeroSection() {
         </p>
 
         <div
-          ref={ctaRef}
-          className="opacity-0 translate-y-5 flex flex-col sm:flex-row items-center justify-center gap-4 mb-8"
-        >
-          
-          >
-            Ver Apps
-            <ArrowRight className="w-4 h-4" />
-          </button>
-        </div>
-
-        <div
           ref={badgeRef}
           className="opacity-0 flex items-center justify-center gap-3 text-cultiva-muted"
         >
