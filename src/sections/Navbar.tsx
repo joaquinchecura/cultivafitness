@@ -62,20 +62,7 @@ export function Navbar() {
               </button>
             ))}
           </div>
-
-          {/* CTA */}
-          <div className="hidden md:block">
-            <a
-              href="https://cultivafitness.base44.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-cultiva-green text-cultiva-bg px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-cultiva-green-dark transition-all duration-300 hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(74,222,128,0.3)]"
-            >
-              Usar WebApp
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
-          </div>
-
+          
           {/* Mobile Hamburger */}
           <button
             className="md:hidden text-cultiva-text"
