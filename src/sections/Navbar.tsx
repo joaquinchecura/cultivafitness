@@ -66,7 +66,7 @@ export function Navbar() {
           {/* Mobile Hamburger */}
           <div className="hidden md:flex items-center gap-4">
   <a 
-    href="https://wa.me/34600000000" 
+    href="https://wa.me/5491123970926" 
     target="_blank" 
     rel="noopener noreferrer"
     className="text-cultiva-muted hover:text-cultiva-green transition-colors"
