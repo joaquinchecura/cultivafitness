@@ -70,9 +70,12 @@ export function Footer() {
             </div>
             <div>
               <h4 className="text-cultiva-text text-sm font-semibold mb-4">Contacto</h4>
-              <p className="text-cultiva-muted text-sm">
+              <a 
+                href="mailto:cultivafitness@gmail.com" 
+                className="text-cultiva-muted text-sm hover:text-cultiva-secondary transition-colors duration-300"
+                >
                 cultivafitness@gmail.com
-              </p>
+               </a>
             </div>
           </div>
         </div>
