@@ -11,14 +11,14 @@ const features = [
     iconBg: 'bg-cultiva-green/15',
     iconColor: '#4ADE80',
     title: 'Tracking Inteligente',
-    desc: 'Cada métrica importa. Desde repeticiones hasta variabilidad de frecuencia cardíaca, nuestro sistema de tracking aprende de ti y se adapta.',
+    desc: 'Cada métrica importa. Desde repeticiones hasta variabilidad de ingesta calórica, nuestro sistema de tracking aprende de ti y se adapta.',
   },
   {
     icon: FlaskConical,
     iconBg: 'bg-cultiva-blue/15',
     iconColor: '#60A5FA',
     title: 'Base Científica',
-    desc: 'No seguimos modas. Seguimos evidencia. Cada protocolo está respaldado por literatura científica revisada por expertos.',
+    desc: 'No seguimos modas. Seguimos evidencia. Cada protocolo está respaldado por literatura científica real.',
   },
   {
     icon: Smartphone,
