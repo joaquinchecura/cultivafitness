@@ -1,7 +1,7 @@
 import { Leaf, Heart } from 'lucide-react';
 
 export function Footer() {
-  const appLinks = ['Cultiva Fitness', 'Cultiva Nutre', 'Cultiva Mente', 'Cultiva Cuerpo', 'Cultiva Wellness'];
+  const appLinks = ['BodyMind', 'Supply', 'Neura', 'Running', 'Reckon'];
   const resourceLinks = ['Blog', 'Ciencia', 'FAQs', 'Guías'];
   const legalLinks = ['Privacidad', 'Términos', 'Cookies'];
 
