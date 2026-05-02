@@ -69,16 +69,28 @@ export function Footer() {
               </ul>
             </div>
             <div>
-              <h4 className="text-cultiva-text text-sm font-semibold mb-4">Contacto</h4>
-              <a 
-                href="mailto:cultivafitness@gmail.com" 
-                className="text-cultiva-muted text-sm hover:text-cultiva-secondary transition-colors duration-300"
-                >
-                cultivafitness@gmail.com
-               </a>
-            </div>
-          </div>
-        </div>
+  <h4 className="text-cultiva-text text-sm font-semibold mb-4">Contacto</h4>
+  <ul className="space-y-3">
+    <li>
+      <a 
+        href="mailto:cultivafitness@gmail.com" 
+        className="text-cultiva-muted text-sm hover:text-cultiva-secondary transition-colors duration-300"
+      >
+        cultivafitness@gmail.com
+      </a>
+    </li>
+    <li>
+      <a 
+        href="https://wa.me/5491123970926" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-cultiva-muted text-sm hover:text-cultiva-secondary transition-colors duration-300"
+      >
+        WhatsApp
+      </a>
+    </li>
+  </ul>
+</div>
 
         {/* Bottom Row */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 border-t border-cultiva-green/[0.06]">
