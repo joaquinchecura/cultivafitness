@@ -69,8 +69,9 @@ function limpiarNombreArchivo(nombre) {
   nombre = path.parse(nombre).name;
   // Reemplazar guiones y underscores por espacios
   nombre = nombre.replace(/[-_]/g, ' ');
-  // Capitalizar primera letra de cada palabra
-  return nombre.replace(/\b\w/g, l => l.toUpperCase());
+  // Solo primera letra mayúscula, resto minúscula
+  nombre = nombre.toLowerCase();
+  return nombre.charAt(0).toUpperCase() + nombre.slice(1);
 }
 
 function generarDescripcion(nombre) {
