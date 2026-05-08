@@ -67,7 +67,7 @@ export default function Subcategoria() {
                 key={ej.nombre}
                 className="bg-cultiva-surface rounded-2xl border border-cultiva-green/10 overflow-hidden hover:border-cultiva-green/30 transition-all duration-300"
               >
-                <div className="aspect-[4/3] bg-cultiva-bg relative">
+                <div className="bg-cultiva-bg relative">
                   <img
                     src={ej.imagen}
                     alt={ej.nombre}

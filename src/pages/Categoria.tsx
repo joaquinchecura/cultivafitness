@@ -54,7 +54,7 @@ export default function Categoria() {
               to={`/ejercicios/${categoria.slug}/${sub.slug}`}
               className="group bg-cultiva-surface rounded-2xl border border-cultiva-green/10 overflow-hidden hover:border-cultiva-green/40 transition-all duration-300"
             >
-              <div className="aspect-[16/9] bg-cultiva-bg relative overflow-hidden">
+              <div className="bg-cultiva-bg relative overflow-hidden">
                 {sub.ejercicios[0]?.imagen ? (
                   <img
                     src={sub.ejercicios[0].imagen}
