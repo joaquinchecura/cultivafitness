@@ -41,9 +41,9 @@ const CATEGORIAS = {
     subtitulo: "Relaja el cuerpo y reduce el estrés",
     descripcion: "Técnicas de recuperación activa y relajación para el bienestar general.",
     subcategorias: {
-      "stretching pasivo": "Stretching Pasivo",
-      "movimiento restaurativo": "Movimiento Restaurativo",
-      "conciencia corporal": "Conciencia Corporal",
+      "Stretching pasivo": "Stretching Pasivo",
+      "Movimiento restaurativo": "Movimiento Restaurativo",
+      "Conciencia corporal": "Conciencia Corporal",
       "Respiración": "Respiración",
     }
   },
