@@ -5,18 +5,30 @@ export default function Ejercicios() {
   return (
     <div className="min-h-screen bg-cultiva-bg text-cultiva-text">
       {/* Header */}
-      <header className="border-b border-cultiva-green/10 bg-cultiva-bg/80 backdrop-blur-md sticky top-0 z-50">
-        <div className="max-w-[1280px] mx-auto px-6 h-16 flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2">
-            <span className="text-cultiva-text font-bold text-lg">CULTIVA</span>
-            <span className="text-cultiva-muted font-mono text-sm">FITNESS</span>
-          </Link>
-          <nav className="flex gap-6">
-            <Link to="/" className="text-cultiva-secondary hover:text-cultiva-green transition">Inicio</Link>
-            <span className="text-cultiva-green font-medium">Ejercicios</span>
-          </nav>
-        </div>
-      </header>
+<header className="border-b border-cultiva-green/10 bg-cultiva-bg/80 backdrop-blur-md sticky top-0 z-50">
+  <div className="max-w-[1280px] mx-auto px-6 h-16 flex items-center justify-between">
+    <Link to="/" className="flex items-center gap-2">
+      <span className="text-cultiva-text font-bold text-lg">CULTIVA</span>
+      <span className="text-cultiva-muted font-mono text-sm">FITNESS</span>
+    </Link>
+    
+    {/* Desktop nav */}
+    <nav className="hidden md:flex gap-6">
+      <Link to="/" className="text-cultiva-secondary hover:text-cultiva-green transition">Inicio</Link>
+      <span className="text-cultiva-green font-medium">Ejercicios</span>
+    </nav>
+    
+    {/* Mobile nav - solo flecha volver */}
+    <nav className="flex md:hidden gap-4">
+      <Link 
+        to="/" 
+        className="text-cultiva-secondary hover:text-cultiva-green transition text-sm flex items-center gap-1"
+      >
+        ← Inicio
+      </Link>
+    </nav>
+  </div>
+</header>
 
       <main className="max-w-[1280px] mx-auto px-6 py-12">
         <h1 className="text-4xl font-bold mb-2">Biblioteca de Ejercicios</h1>
