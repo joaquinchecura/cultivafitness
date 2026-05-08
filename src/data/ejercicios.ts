@@ -20,7 +20,7 @@ export interface Categoria {
 
 export const categorias: Categoria[] = [
   {
-    slug: "movilidad-consciente",
+    slug: "Movilidad consciente",
     titulo: "Movilidad Consciente",
     subtitulo: "Mejora tu control corporal",
     descripcion: "Ejercicios diseñados para mejorar la conexión mente-cuerpo y el control motor.",
@@ -200,7 +200,7 @@ export const categorias: Categoria[] = [
     ],
   },
   {
-    slug: "fuerza",
+    slug: "Fuerza",
     titulo: "Fuerza",
     subtitulo: "Construye músculo y estabilidad",
     descripcion: "Entrenamiento de fuerza para desarrollar masa muscular y estabilidad articular.",
@@ -615,247 +615,322 @@ export const categorias: Categoria[] = [
         ],
       },
       {
-        slug: "fuerza-isometrica",
+        slug: "fuerza-isométrica",
         nombre: "Fuerza Isométrica",
         ejercicios: [
+          {
+            nombre: "Colgado Sin Movimiento",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Colgado sin movimiento.jpeg",
+            descripcion: "Ejercicio de colgado sin movimiento para mejorar tu rendimiento físico.",
+          },
+          {
+            nombre: "Equilibrio En Una Pierna",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Equilibrio en una pierna.jpeg",
+            descripcion: "Ejercicio de equilibrio en una pierna para mejorar tu rendimiento físico.",
+          },
+          {
+            nombre: "Estocada Unilateral Sin Movimiento",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Estocada unilateral sin movimiento.jpeg",
+            descripcion: "Ejercicio de estocada unilateral sin movimiento para mejorar tu rendimiento físico.",
+          },
+          {
+            nombre: "Flexo ExtensióN Sin Movimiento",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Flexo-extensión sin movimiento.jpeg",
+            descripcion: "Ejercicio de flexo extensión sin movimiento para mejorar tu rendimiento físico.",
+          },
+          {
+            nombre: "Gemelos IsoméTrico",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Gemelos isométrico.jpeg",
+            descripcion: "Ejercicio de gemelos isométrico para mejorar tu rendimiento físico.",
+          },
+          {
+            nombre: "Plancha Con Rodillas Flexionadas",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Plancha con rodillas flexionadas.jpeg",
+            descripcion: "Ejercicio de plancha con rodillas flexionadas para mejorar tu rendimiento físico.",
+          },
+          {
+            nombre: "Plancha En PosicióN Invertida",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Plancha en posición invertida.jpeg",
+            descripcion: "Ejercicio de plancha en posición invertida para mejorar tu rendimiento físico.",
+          },
+          {
+            nombre: "Plancha Frontal",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Plancha frontal.jpeg",
+            descripcion: "Ejercicio de plancha frontal para mejorar tu rendimiento físico.",
+          },
+          {
+            nombre: "Plancha Lateral",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Plancha lateral.jpeg",
+            descripcion: "Ejercicio de plancha lateral para mejorar tu rendimiento físico.",
+          },
+          {
+            nombre: "Puente Sin Movimiento",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Puente sin movimiento.jpeg",
+            descripcion: "Ejercicio de puente sin movimiento para mejorar tu rendimiento físico.",
+          },
+          {
+            nombre: "RotacióN De Columna EstáTica",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Rotación de columna estática.jpeg",
+            descripcion: "Ejercicio de rotación de columna estática para mejorar tu rendimiento físico.",
+          },
+          {
+            nombre: "Sentadilla Contra Pared",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Sentadilla contra pared.jpeg",
+            descripcion: "Ejercicio de sentadilla contra pared para mejorar tu rendimiento físico.",
+          },
+          {
+            nombre: "Sentadilla Sin Movimiento",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Sentadilla sin movimiento.jpeg",
+            descripcion: "Ejercicio de sentadilla sin movimiento para mejorar tu rendimiento físico.",
+          },
+          {
+            nombre: "Sostener Peso EstáTico",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Sostener peso estático.jpeg",
+            descripcion: "Ejercicio de sostener peso estático para mejorar tu rendimiento físico.",
+          },
+          {
+            nombre: "SupensióN Sin Movimiento",
+            imagen: "/images/ejercicios/Fuerza/fuerza isométrica/Supensión sin movimiento.jpeg",
+            descripcion: "Ejercicio de supensión sin movimiento para mejorar tu rendimiento físico.",
+          }
         ]
       }
     ],
   },
   {
-    slug: "metabolico-condicionamiento",
+    slug: "Metabólico y condicionamiento",
     titulo: "Metabólico y condicionamiento",
     subtitulo: "Incrementa tu resistencia y energía",
     descripcion: "Trabajo cardiovascular y metabólico para mejorar la capacidad aeróbica y anaeróbica.",
     subcategorias: [
       {
-        slug: "cardio-continuo",
+        slug: "Cardio-continuo",
         nombre: "Cardio Continuo",
         ejercicios: [
           {
             nombre: "AeróBicos De Bajo Impacto",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/cardio continuo/Aeróbicos de bajo impacto.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/Cardio continuo/Aeróbicos de bajo impacto.jpeg",
             descripcion: "Ejercicio de aeróbicos de bajo impacto para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Bicicleta De Aire",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/cardio continuo/Bicicleta de aire.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/Cardio continuo/Bicicleta de aire.jpeg",
             descripcion: "Ejercicio de bicicleta de aire para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Bicicleta Fija",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/cardio continuo/Bicicleta fija.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/Cardio continuo/Bicicleta fija.jpeg",
             descripcion: "Ejercicio de bicicleta fija para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Camina En Escalador",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/cardio continuo/Camina en escalador.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/Cardio continuo/Camina en escalador.jpeg",
             descripcion: "Ejercicio de camina en escalador para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Caminata Con InclinacióN",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/cardio continuo/Caminata con inclinación.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/Cardio continuo/Caminata con inclinación.jpeg",
             descripcion: "Ejercicio de caminata con inclinación para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Caminata RáPida",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/cardio continuo/Caminata rápida.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/Cardio continuo/Caminata rápida.jpeg",
             descripcion: "Ejercicio de caminata rápida para mejorar tu rendimiento físico.",
           },
           {
             nombre: "ElíPtico",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/cardio continuo/Elíptico.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/Cardio continuo/Elíptico.jpeg",
             descripcion: "Ejercicio de elíptico para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Escaleras",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/cardio continuo/Escaleras.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/Cardio continuo/Escaleras.jpeg",
             descripcion: "Ejercicio de escaleras para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Remo ErgoméTrico",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/cardio continuo/Remo ergométrico.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/Cardio continuo/Remo ergométrico.jpeg",
             descripcion: "Ejercicio de remo ergométrico para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Remos Con MáQuina",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/cardio continuo/Remos con máquina.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/Cardio continuo/Remos con máquina.jpeg",
             descripcion: "Ejercicio de remos con máquina para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Saltos Con Soga",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/cardio continuo/Saltos con soga.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/Cardio continuo/Saltos con soga.jpeg",
             descripcion: "Ejercicio de saltos con soga para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Trote Con Intervalos",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/cardio continuo/Trote con intervalos.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/Cardio continuo/Trote con intervalos.jpeg",
             descripcion: "Ejercicio de trote con intervalos para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Trote Continuo",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/cardio continuo/Trote continuo.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/Cardio continuo/Trote continuo.jpeg",
             descripcion: "Ejercicio de trote continuo para mejorar tu rendimiento físico.",
           }
         ],
       },
       {
-        slug: "hiit",
+        slug: "HIIT",
         nombre: "HIIT",
         ejercicios: [
           {
             nombre: "Burpees",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Burpees.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Burpees.jpeg",
             descripcion: "Ejercicio de burpees para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Complex Con Barra",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Complex con barra.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Complex con barra.jpeg",
             descripcion: "Ejercicio de complex con barra para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Elevaciones De Talones",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Elevaciones de talones.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Elevaciones de talones.jpeg",
             descripcion: "Ejercicio de elevaciones de talones para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Empuje De Trineo",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Empuje de trineo.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Empuje de trineo.jpeg",
             descripcion: "Ejercicio de empuje de trineo para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Estocadas Laterales",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Estocadas laterales.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Estocadas laterales.jpeg",
             descripcion: "Ejercicio de estocadas laterales para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Flexo ExtensióN Con Toque De Hombros",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Flexo extensión con toque de hombros.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Flexo extensión con toque de hombros.jpeg",
             descripcion: "Ejercicio de flexo extensión con toque de hombros para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Golpes Con La Soga",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Golpes con la soga.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Golpes con la soga.jpeg",
             descripcion: "Ejercicio de golpes con la soga para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Marcha Con Rodillas Elevadas",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Marcha con rodillas elevadas.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Marcha con rodillas elevadas.jpeg",
             descripcion: "Ejercicio de marcha con rodillas elevadas para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Medio Burpee",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Medio burpee.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Medio burpee.jpeg",
             descripcion: "Ejercicio de medio burpee para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Ondas Con Soga",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Ondas con soga.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Ondas con soga.jpeg",
             descripcion: "Ejercicio de ondas con soga para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Plancha Con Paso Lateral",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Plancha con paso lateral.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Plancha con paso lateral.jpeg",
             descripcion: "Ejercicio de plancha con paso lateral para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Plancha Con Rodillas Al Pecho",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Plancha con rodillas al pecho.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Plancha con rodillas al pecho.jpeg",
             descripcion: "Ejercicio de plancha con rodillas al pecho para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Remo En Plancha",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Remo en plancha.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Remo en plancha.jpeg",
             descripcion: "Ejercicio de remo en plancha para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Salto Hacia Delante",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Salto hacia delante.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Salto hacia delante.jpeg",
             descripcion: "Ejercicio de salto hacia delante para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Saltos Al CajóN",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Saltos al cajón.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Saltos al cajón.jpeg",
             descripcion: "Ejercicio de saltos al cajón para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Saltos Con Rodillas Al Pecho",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Saltos con rodillas al pecho.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Saltos con rodillas al pecho.jpeg",
             descripcion: "Ejercicio de saltos con rodillas al pecho para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Saltos Con Soga",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Saltos con soga.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Saltos con soga.jpeg",
             descripcion: "Ejercicio de saltos con soga para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Saltos Con Zancadas",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Saltos con zancadas.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Saltos con zancadas.jpeg",
             descripcion: "Ejercicio de saltos con zancadas para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Saltos Desde Sentadilla",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Saltos desde sentadilla.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Saltos desde sentadilla.jpeg",
             descripcion: "Ejercicio de saltos desde sentadilla para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Saltos Laterales",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Saltos laterales.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Saltos laterales.jpeg",
             descripcion: "Ejercicio de saltos laterales para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Sentadilla Contra Pared",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Sentadilla contra pared.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Sentadilla contra pared.jpeg",
             descripcion: "Ejercicio de sentadilla contra pared para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Sentadillas Con Brazos Elevados",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Sentadillas con brazos elevados.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Sentadillas con brazos elevados.jpeg",
             descripcion: "Ejercicio de sentadillas con brazos elevados para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Skipping A",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Skipping A.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Skipping A.jpeg",
             descripcion: "Ejercicio de skipping a para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Sprint Con Intervalos Cortos",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Sprint con intervalos cortos.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Sprint con intervalos cortos.jpeg",
             descripcion: "Ejercicio de sprint con intervalos cortos para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Sprint Cortos En Pendiente",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Sprint cortos en pendiente.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Sprint cortos en pendiente.jpeg",
             descripcion: "Ejercicio de sprint cortos en pendiente para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Sprint En Airbike",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Sprint en airbike.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Sprint en airbike.jpeg",
             descripcion: "Ejercicio de sprint en airbike para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Step Jacks",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Step jacks.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Step jacks.jpeg",
             descripcion: "Ejercicio de step jacks para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Subidas Al CajóN",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Subidas al cajón.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Subidas al cajón.jpeg",
             descripcion: "Ejercicio de subidas al cajón para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Swing Con Balanceo",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Swing con balanceo.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Swing con balanceo.jpeg",
             descripcion: "Ejercicio de swing con balanceo para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Thruster",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Thruster.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Thruster.jpeg",
             descripcion: "Ejercicio de thruster para mejorar tu rendimiento físico.",
           },
           {
             nombre: "Thrusters Con Cargada De Mancuernas",
-            imagen: "/images/ejercicios/Metabólico y condicionamiento/hiit/Thrusters con cargada de mancuernas.jpeg",
+            imagen: "/images/ejercicios/Metabólico y condicionamiento/HIIT/Thrusters con cargada de mancuernas.jpeg",
             descripcion: "Ejercicio de thrusters con cargada de mancuernas para mejorar tu rendimiento físico.",
           }
         ]
@@ -1062,7 +1137,7 @@ export const categorias: Categoria[] = [
         ],
       },
       {
-        slug: "respiracion",
+        slug: "Respiración",
         nombre: "Respiración",
         ejercicios: [
         ]

@@ -7,7 +7,7 @@ const BASE_PATH = path.join('public', 'images', 'ejercicios');
 // Mapeo de carpetas a nombres de categorías y subcategorías
 const CATEGORIAS = {
   "Movilidad Consciente": {
-    slug: "movilidad-consciente",
+    slug: "Movilidad consciente",
     subtitulo: "Mejora tu control corporal",
     descripcion: "Ejercicios diseñados para mejorar la conexión mente-cuerpo y el control motor.",
     subcategorias: {
@@ -16,7 +16,7 @@ const CATEGORIAS = {
     }
   },
   "Fuerza": {
-    slug: "fuerza",
+    slug: "Fuerza",
     subtitulo: "Construye músculo y estabilidad",
     descripcion: "Entrenamiento de fuerza para desarrollar masa muscular y estabilidad articular.",
     subcategorias: {
@@ -24,16 +24,16 @@ const CATEGORIAS = {
       "fullbody": "Full Body",
       "tren inferior": "Tren Inferior",
       "tren superior": "Tren Superior",
-      "fuerza isometrica": "Fuerza Isométrica",
+      "fuerza isométrica": "Fuerza Isométrica",
     }
   },
   "Metabólico y condicionamiento": {
-    slug: "metabolico-condicionamiento",
+    slug: "Metabólico y condicionamiento",
     subtitulo: "Incrementa tu resistencia y energía",
     descripcion: "Trabajo cardiovascular y metabólico para mejorar la capacidad aeróbica y anaeróbica.",
     subcategorias: {
-      "cardio continuo": "Cardio Continuo",
-      "hiit": "HIIT",
+      "Cardio continuo": "Cardio Continuo",
+      "HIIT": "HIIT",
     }
   },
   "Regulación y descarga": {
@@ -44,7 +44,7 @@ const CATEGORIAS = {
       "stretching pasivo": "Stretching Pasivo",
       "movimiento restaurativo": "Movimiento Restaurativo",
       "conciencia corporal": "Conciencia Corporal",
-      "respiracion": "Respiración",
+      "Respiración": "Respiración",
     }
   },
   "Rehabilitación y correctivos": {
