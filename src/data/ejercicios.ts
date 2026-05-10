@@ -948,7 +948,7 @@ export const categorias: Categoria[] = [
         nombre: "Stretching Pasivo",
         ejercicios: [
           {
-            nombre: "Estirameinto de pantorrilla",
+            nombre: "Estiramiento de pantorrilla",
             imagen: "/images/ejercicios/Regulación y descarga/Stretching pasivo/Estirameinto de pantorrilla.jpeg",
             descripcion: "Ejercicio de estirameinto de pantorrilla para mejorar tu rendimiento físico.",
           },
@@ -1260,7 +1260,7 @@ export const categorias: Categoria[] = [
     ],
   },
   {
-    slug: "rehabilitacion-correctivos",
+    slug: "Rehabilitación y correctivos",
     titulo: "Rehabilitación y correctivos",
     subtitulo: "Recupera movilidad y previene lesiones",
     descripcion: "Ejercicios terapéuticos para la recuperación y prevención de lesiones.",
